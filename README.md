@@ -1,5 +1,7 @@
 # Requisitos
 
+## Node(client) / ReactJs(server)
+
 ### categories
 - Deve ser possivel criar uma categoria.
 - Deve ser possivel editar uma categoria.
