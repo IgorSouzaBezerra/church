@@ -6,7 +6,6 @@
 - Deve ser possivel excluir categoria desde que nuca usada.
 - Não deve ser possivel cadastrar uma categoria descrição já existente.
 
-
 ### products
 - Deve ser possível criar um produto.
 - Ao criar um produto ele deve ser por padrão ativo.
