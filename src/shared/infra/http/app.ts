@@ -1,7 +1,12 @@
+/* eslint-disable import-helpers/order-imports */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import "reflect-metadata";
 import express, { Request, Response, NextFunction } from "express";
 import "express-async-errors";
 
+import swaggerUi from "swagger-ui-express";
+
+import swaggerFile from "../../../swagger.json";
 import { AppError } from "../../errors/AppError";
 import { router } from "./routes";
 
@@ -9,6 +14,8 @@ import "../../container";
 
 const app = express();
 app.use(express.json());
+
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerFile));
 
 app.use(router);
 
