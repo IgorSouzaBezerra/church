@@ -12,12 +12,12 @@
 - [x] Não deve ser possivel cadastrar uma categoria descrição já existente.
 ```
 
-table name | type
----------- | ------
-id         | varchar
-name       | varchar
-description| varchar
-created_at | timestamp
+table name | type       |default |
+-----------|------------|--------|
+id         | varchar    |uuid    |
+name       | varchar    |        |
+description| varchar    |        |
+created_at | timestamp  |now()   |
 
 
 ```
