@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/igorsouzabezerra/church/workflows/main/badge.svg)](https://github.com/igorsouzabezerra/church/actions)
+[![Build Status](https://github.com/IgorSouzaBezerra/church/.github/workflows/main/badge.svg)](https://github.com/igorsouzabezerra/church/actions)
 
 # Requisitos
 
