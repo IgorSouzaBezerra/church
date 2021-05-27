@@ -1,4 +1,4 @@
-https://github.com/<OWNER>/<REPOSITORY>/actions/workflows/<WORKFLOW_FILE>/badge.svg
+https://github.com/IgorSouzaBezerra/church/actions/workflows/main.yml/badge.svg
 
 # Requisitos
 
