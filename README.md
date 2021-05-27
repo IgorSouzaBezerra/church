@@ -4,9 +4,9 @@
 
 ### categories
 - [x] Deve ser possivel criar uma categoria.
-- Deve ser possivel editar uma categoria.
-- Deve ser possivel excluir categoria desde que nunca usada.
-- [x] Não deve ser possivel cadastrar uma categoria quando a descrição já existe.
+- [x] Deve ser possivel editar uma categoria.
+- Deve ser possivel excluir categoria desde que nuca usada.
+- [x] Não deve ser possivel cadastrar uma categoria descrição já existente.
 
 ### products
 - Deve ser possível criar um produto.
