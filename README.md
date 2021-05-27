@@ -5,7 +5,7 @@
 ## Node(server)
 
 
-### categories
+### > categories
 - [x] Deve ser possivel criar uma categoria.
 - [x] Deve ser possivel editar uma categoria.
 - Deve ser possivel excluir categoria desde que nuca usada.
