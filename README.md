@@ -1,4 +1,4 @@
-[![Build Status](https://github.com/eslint/eslint/workflows/CI/badge.svg)](https://github.com/eslint/eslint/actions)
+[![Build Status](https://github.com/igorsouzabezerra/church/workflows/main/badge.svg)](https://github.com/igorsouzabezerra/church/actions)
 
 # Requisitos
 
