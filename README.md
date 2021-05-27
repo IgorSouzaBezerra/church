@@ -1,4 +1,4 @@
-![fluxo de trabalho de exemplo](https://github.com/github/igorsouzabezerra/church/.github/workflows/main.yml/badge.svg)
+![fluxo de trabalho de exemplo](https://github.com/github/docs/actions/workflows/main.yml/badge.svg)
 
 # Requisitos
 
