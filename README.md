@@ -13,7 +13,7 @@
 ```
 
 table name | type       |default |
------------|------------|--------|
+:---------:|:----------:|:------:|
 id         | varchar    |uuid    |
 name       | varchar    |        |
 description| varchar    |        |
