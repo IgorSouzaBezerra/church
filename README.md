@@ -1,4 +1,5 @@
 [![Build Status](https://github.com/IgorSouzaBezerra/church/.github/workflows/main/badge.svg)](https://github.com/igorsouzabezerra/church/actions)
+![fluxo de trabalho de exemplo](https://github.com/IgorSouzaBezerra/church/actions/workflows/main.yml/badge.svg)
 
 # Requisitos
 
