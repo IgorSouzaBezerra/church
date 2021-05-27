@@ -11,12 +11,14 @@
 - Deve ser possivel excluir categoria desde que nuca usada.
 - [x] Não deve ser possivel cadastrar uma categoria descrição já existente.
 ```
-Exemplo   | Valor do exemplo
---------- | ------
-Exemplo 1 | R$ 10
-Exemplo 2 | R$ 8
-Exemplo 3 | R$ 7
-Exemplo 4 | R$ 8
+
+table name | type
+---------- | ------
+id         | varchar
+name       | varchar
+description| varchar
+created_at | timestamp
+
 
 ```
 ### products
