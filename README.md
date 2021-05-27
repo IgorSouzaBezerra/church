@@ -3,10 +3,10 @@
 ## Node(client) / ReactJs(server)
 
 ### categories
-- Deve ser possivel criar uma categoria.
-- Deve ser possivel editar uma categoria.
+- [x] Deve ser possivel criar uma categoria.
+- [x] Deve ser possivel editar uma categoria.
 - Deve ser possivel excluir categoria desde que nuca usada.
-- Não deve ser possivel cadastrar uma categoria descrição já existente.
+- [x] Não deve ser possivel cadastrar uma categoria descrição já existente.
 
 ### products
 - Deve ser possível criar um produto.

@@ -22,6 +22,19 @@ class CategoriesRepositoryInMemory implements ICategoriesRepository {
     return category;
   }
 
+  public async update(receivedCategory: Category): Promise<Category> {
+    let category = await this.findById(receivedCategory.id);
+
+    category = receivedCategory;
+
+    return category;
+  }
+
+  public async findById(id: string): Promise<Category> {
+    const category = this.categories.find((category) => category.id === id);
+    return category;
+  }
+
   public async findByName(name: string): Promise<Category | undefined> {
     const category = this.categories.find((category) => category.name === name);
     return category;
