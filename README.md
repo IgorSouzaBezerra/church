@@ -46,11 +46,11 @@ created_at | timestamp  |now()   |
 
 
 ### orders
-- [] Deve ser possivel criar um pedido
-- [] Deve ser possivel editar um pedido
-- [] O pedido deve ter os status 
+- [ ] Deve ser possivel criar um pedido
+- [ ] Deve ser possivel editar um pedido
+- [ ] O pedido deve ter os status 
    - Em andamento/Concluíodo/Cancelado
-- [] Deve ser possivel cancelar um pedido
+- [ ] Deve ser possivel cancelar um pedido
 
 
 ## ReactJs(client)
