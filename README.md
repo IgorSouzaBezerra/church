@@ -21,27 +21,27 @@ created_at | timestamp  |now()   |
 
 
 ### products
-- [] Deve ser possível criar um produto.
-- [] Ao criar um produto ele deve ser por padrão ativo.
-- [] Deve ser possível editar um produto.
-- [] Deve ser possível excluir um produto desde que nunca usado, se usado apenas desativa-lo.
-- [] Deve ser possivel desativar um produto.
+- [ ] Deve ser possível criar um produto.
+- [ ] Ao criar um produto ele deve ser por padrão ativo.
+- [ ] Deve ser possível editar um produto.
+- [ ] Deve ser possível excluir um produto desde que nunca usado, se usado apenas desativa-lo.
+- [ ] Deve ser possivel desativar um produto.
 
 
 
 ### cost_center
-- [] Deve ser possível criar um centro de custo.
-- [] Deve ser possivel editar um centro de custo.
-- [] Deve ser possivel excluir um centro de custo desde que nunca usado.
+- [ ] Deve ser possível criar um centro de custo.
+- [ ] Deve ser possivel editar um centro de custo.
+- [ ] Deve ser possivel excluir um centro de custo desde que nunca usado.
 
 
 
 ### users
-- [] Deve ser possivel criar um usuário
-- [] Ao criar um usuário ele deve ser por padrão ativo
-- [] Deve ser possivel editar um usuários
-- [] Deve ser possivel redefir a senha de um usuário
-- [] Deve ser possivel inativar um usuários
+- [ ] Deve ser possivel criar um usuário
+- [ ] Ao criar um usuário ele deve ser por padrão ativo
+- [ ] Deve ser possivel editar um usuários
+- [ ] Deve ser possivel redefir a senha de um usuário
+- [ ] Deve ser possivel inativar um usuários
 
 
 
