@@ -33,6 +33,7 @@ id         | varchar    |uuid    |
 name       | varchar    |        |
 category_id| varchar    |        |
 amount     | numeric    |        |
+active     | boolean    |true    |
 created_at | timestamp  |now()   |
 
 ### cost_center
