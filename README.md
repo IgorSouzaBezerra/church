@@ -11,7 +11,7 @@
 - [x] Não deve ser possivel cadastrar uma categoria descrição já existente.
 
 
-table name | type       |default |
+column name | type       |default |
 :---------:|:----------:|:------:|
 id         | varchar    |uuid    |
 name       | varchar    |        |
