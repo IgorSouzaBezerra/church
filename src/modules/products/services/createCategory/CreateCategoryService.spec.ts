@@ -27,17 +27,12 @@ describe("Create Category", () => {
     expect(categoryCreate).toHaveProperty("id");
   });
 
-  it("should not be possible to create categories with the same name", () => {
+  it("should not be possible to create categories with the same name", async () => {
     expect(async () => {
       const category = {
         name: "Category name test",
         description: "Category description test",
       };
-
-      await createCategoryService.execute({
-        name: category.name,
-        description: category.description,
-      });
 
       await createCategoryService.execute({
         name: category.name,
