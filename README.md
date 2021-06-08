@@ -11,7 +11,7 @@
 - [x] Não deve ser possivel cadastrar uma categoria descrição já existente.
 
 
-column name | type       |default |
+column name| type       |default |
 :---------:|:----------:|:------:|
 id         | varchar    |uuid    |
 name       | varchar    |        |
@@ -27,7 +27,13 @@ created_at | timestamp  |now()   |
 - [ ] Deve ser possível excluir um produto desde que nunca usado, se usado apenas desativa-lo.
 - [ ] Deve ser possivel desativar um produto.
 
-
+column name| type       |default |
+:---------:|:----------:|:------:|
+id         | varchar    |uuid    |
+name       | varchar    |        |
+category_id| varchar    |        |
+amount     | numeric    |        |
+created_at | timestamp  |now()   |
 
 ### cost_center
 - [ ] Deve ser possível criar um centro de custo.
