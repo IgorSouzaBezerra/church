@@ -22,6 +22,10 @@ class ProductsRepositoryInMemory implements IProductsRepository {
 
     return product;
   }
+
+  public async findAll(): Promise<Product[]> {
+    return this.products;
+  }
 }
 
 export { ProductsRepositoryInMemory };
