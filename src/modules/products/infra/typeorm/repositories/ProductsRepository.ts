@@ -31,6 +31,11 @@ class ProductsRepository implements IProductsRepository {
     const products = await this.repository.find();
     return products;
   }
+
+  public async findByName(name: string): Promise<Product> {
+    const product = await this.repository.findOne({ name });
+    return product;
+  }
 }
 
 export { ProductsRepository };
