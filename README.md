@@ -6,9 +6,10 @@
 
 > categories
 - [x] Deve ser possivel criar uma categoria.
+- [x] Deve ser possivel listar categorias.
 - [x] Deve ser possivel editar uma categoria.
-- Deve ser possivel excluir categoria desde que nuca usada.
-- [x] Não deve ser possivel cadastrar uma categoria descrição já existente.
+- [ ] Deve ser possivel excluir categoria desde que nunca usada.
+- [x] Não deve ser possivel cadastrar uma categoria com descrição já existente.
 
 
 column name| type       |default |
@@ -21,8 +22,8 @@ created_at | timestamp  |now()   |
 
 
 ### products
-- [ ] Deve ser possível criar um produto.
-- [ ] Ao criar um produto ele deve ser por padrão ativo.
+- [x] Deve ser possível criar um produto.
+- [x] Ao criar um produto ele deve ser por padrão ativo.
 - [ ] Deve ser possível editar um produto.
 - [ ] Deve ser possível excluir um produto desde que nunca usado, se usado apenas desativa-lo.
 - [ ] Deve ser possivel desativar um produto.
