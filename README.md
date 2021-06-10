@@ -26,7 +26,7 @@ created_at | timestamp  |now()   |
 - [x] Ao criar um produto ele deve ser por padrão ativo.
 - [x] Não deve ser possível criar um produto com nomes iguais
 - [x] Não deve ser possível criar um produto com uma categoria que não existe
-- [ ] Deve ser possível editar um produto.
+- [x] Deve ser possível editar um produto.
 - [ ] Deve ser possível excluir um produto desde que nunca usado, se usado apenas desativa-lo.
 - [ ] Deve ser possivel desativar um produto.
 
