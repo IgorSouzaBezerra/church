@@ -5,6 +5,7 @@ import { ICostCentersRepository } from "../../../repositories/ICostCentersReposi
 import { CostCenter } from "../entities/CostCenter";
 
 class CostCentersRepository implements ICostCentersRepository {
+  private limitPage = 5;
   private repoitory: Repository<CostCenter>;
 
   constructor() {
@@ -30,6 +31,15 @@ class CostCentersRepository implements ICostCentersRepository {
   public async findByNumber(number: number): Promise<CostCenter> {
     const costCenter = await this.repoitory.findOne({ number });
     return costCenter;
+  }
+
+  public async findAll(page: number): Promise<CostCenter[]> {
+    const costCenters = await this.repoitory.find({
+      skip: page * this.limitPage,
+      take: this.limitPage,
+    });
+
+    return costCenters;
   }
 }
 

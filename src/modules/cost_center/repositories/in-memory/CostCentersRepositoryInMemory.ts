@@ -27,6 +27,12 @@ class CostCentersRepositoryInMemory implements ICostCentersRepository {
 
     return costCenter;
   }
+
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  public async findAll(page: number): Promise<CostCenter[]> {
+    const costCenters = this.costCenter;
+    return costCenters;
+  }
 }
 
 export { CostCentersRepositoryInMemory };
