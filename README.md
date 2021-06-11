@@ -40,18 +40,25 @@ active     | boolean    |true    |
 created_at | timestamp  |now()   |
 
 ### cost_center
-- [ ] Deve ser possível criar um centro de custo.
-- [ ] Deve ser possivel editar um centro de custo.
+- [x] Deve ser possível criar um centro de custo.
+- [x] Deve ser possivel editar um centro de custo.
+- [x] Deve ser possível listar centros de custo.
 - [ ] Deve ser possivel excluir um centro de custo desde que nunca usado.
 
-
+column name| type       |default |
+:---------:|:----------:|:------:|
+id         | varchar    |uuid    |
+number     | numeric    |        |
+responsible| varchar    |        |
+description| varchar    |        |
+created_at | timestamp  |now()   |
 
 ### users
 - [ ] Deve ser possivel criar um usuário
 - [ ] Ao criar um usuário ele deve ser por padrão ativo
 - [ ] Deve ser possivel editar um usuários
 - [ ] Deve ser possivel redefir a senha de um usuário
-- [ ] Deve ser possivel inativar um usuários
+- [ ] Deve ser possivel inativar um usuário
 
 
 
