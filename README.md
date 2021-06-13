@@ -54,13 +54,20 @@ description| varchar    |        |
 created_at | timestamp  |now()   |
 
 ### users
-- [ ] Deve ser possivel criar um usuário
-- [ ] Ao criar um usuário ele deve ser por padrão ativo
-- [ ] Deve ser possivel editar um usuários
+- [x] Deve ser possivel criar um usuário
+- [x] Ao criar um usuário ele deve ser por padrão ativo
+- [ ] Deve ser possivel editar um usuário
 - [ ] Deve ser possivel redefir a senha de um usuário
 - [ ] Deve ser possivel inativar um usuário
 
-
+column name| type       |default |
+:---------:|:----------:|:------:|
+id         | varchar    |uuid    |
+name       | varchar    |        |
+email      | varchar    |        |
+password   | varchar    |        |
+active     | boolean    |true    |
+created_at | timestamp  |now()   |
 
 ### orders
 - [ ] Deve ser possivel criar um pedido
