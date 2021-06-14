@@ -22,6 +22,17 @@ class UsersRepositoryInMemory implements IUsersRepository {
     const user = this.users.find((u) => u.email === email);
     return user;
   }
+
+  public async findById(id: string): Promise<User> {
+    const user = this.users.find((u) => u.id === id);
+
+    return user;
+  }
+
+  public async inactivateUser(id: string): Promise<void> {
+    const user = await this.findById(id);
+    user.active = false;
+  }
 }
 
 export { UsersRepositoryInMemory };
