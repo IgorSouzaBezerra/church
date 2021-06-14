@@ -13,7 +13,7 @@ export class CreateTableCostCenter1623345587777 implements MigrationInterface {
           },
           {
             name: "number",
-            type: "numeric",
+            type: "integer",
           },
           {
             name: "responsible",

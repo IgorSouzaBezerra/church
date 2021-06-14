@@ -8,6 +8,7 @@ interface IProductsRepository {
   findAll(): Promise<Product[]>;
   findByName(name: string): Promise<Product>;
   findById(id: string): Promise<Product>;
+  findByIds(ids: string[]): Promise<Product[]>;
 }
 
 export { IProductsRepository };

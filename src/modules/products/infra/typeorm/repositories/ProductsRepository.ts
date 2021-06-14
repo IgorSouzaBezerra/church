@@ -60,6 +60,12 @@ class ProductsRepository implements IProductsRepository {
     const product = await this.repository.findOne({ id });
     return product;
   }
+
+  public async findByIds(ids: string[]): Promise<Product[]> {
+    const products = await this.repository.findByIds(ids);
+
+    return products;
+  }
 }
 
 export { ProductsRepository };
